@@ -7,7 +7,6 @@ git remote set-url origin https://<USERNAME>:<MYTOKEN>@github.com/<USERNAME>/<RE
 
 [BRANCH]
 git branch -M main
-git branch -M master
 
 [AFTER MODIFICATIONS]
 git add <filename>
