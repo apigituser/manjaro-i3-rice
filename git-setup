@@ -1,0 +1,17 @@
+git clone "repository"
+cd repository
+git config --global user.email ""
+git config --global user.name ""
+git remote add origin https://<USERNAME>:<MYTOKEN>@github.com/<USERNAME>/<REPOSITORY>.git
+git remote set-url origin https://<USERNAME>:<MYTOKEN>@github.com/<USERNAME>/<REPOSITORY>.git
+
+[BRANCH]
+git branch -M main
+git branch -M master
+
+[AFTER MODIFICATIONS]
+git add <filename>
+      or
+git add .
+git commit -m ""
+git push -u origin main
